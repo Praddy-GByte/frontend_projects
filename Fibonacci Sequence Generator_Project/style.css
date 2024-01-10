@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2e2d2d;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-variant-caps: all-small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+   font-size: larger;
+    text-decoration: none;
+    color: #fffefe;
+}
+nav ul li a:hover {
+   color: #000;
+ }
+ .container{
+    padding: 40px 10%;
+    display: inline-block;
+    justify-content: center;
+ }
+  
+  h1 {
+    color: blue;
+  }
+  
+  label {
+    width: 160px;
+    text-align: right;
+  }
+  
+  input {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  #result {
+    font-weight: bold;
+  }
+  

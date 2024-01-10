@@ -1,0 +1,94 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(63, 61, 61);
+    font-size: larger;
+    font-weight: bold;
+}
+.background-div {
+    background-image: url('bg (1).jpg');
+    background-size: contain;
+  }
+  
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar a {
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.background {
+    padding-bottom: 20px;
+    background-image: url('bg (1).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pricing-table {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pricing-plan {
+    background-color: rgba(78, 235, 235, 0.14);
+    padding: 80px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.table {
+    background-color: #ffffff51;
+}
+
+.section {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: larger;
+    text-align: center;
+}
+
+.pricing-plan h2 {
+    font-size: 20px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+  
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1105f3;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+footer {
+    background-color: #221f1f;
+    padding: 20px;
+    text-align: center;
+    text-decoration-color: #f6f1f1;
+  }
+  
+  footer p {
+    color: #ffefef;
+    font-size: 14px;
+  }
+  

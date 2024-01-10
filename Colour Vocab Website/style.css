@@ -1,0 +1,96 @@
+/* External Styles */
+/* Styles defined in an external CSS file (style.css) */
+
+
+/* Internal CSS */
+h2 {
+    color: blue;
+}
+
+
+/* Global Styles */
+/* Styles applied to the entire document */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Color List Section */
+/* Styles applied to the section with id "color-list" */
+#color-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+/* Header */
+/* Styles applied to the header section */
+header {
+    background-color: #d4cc32;
+    color: #88d012;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles applied to h1 elements within the header section */
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Class Selectors */
+/* Styles applied to elements with class "color" */
+.color {
+    width: 250px;
+    padding: 20px;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Styles applied to elements with class "color-preview" */
+.color-preview {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Styles applied to h2 elements within elements with class "color" */
+.color h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Styles applied to p elements within elements with class "color" */
+.color p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* ID Selectors */
+/* Styles applied to the element with id "color-list" */
+#color-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+/* Header Styles */
+/* Styles applied to the <header> element */
+header {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles applied to h1 elements within the <header> element */
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}

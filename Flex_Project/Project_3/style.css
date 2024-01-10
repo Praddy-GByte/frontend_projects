@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2e2d2d;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-variant-caps: all-small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+   font-size: larger;
+    text-decoration: none;
+    color: #fffefe;
+}
+nav ul li a:hover {
+   color: #000;
+ }
+
+.container {
+    padding: 20px 5%;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.collage {
+    padding: 10px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.collage li {
+    position: relative;
+    flex: 1 1 auto;
+    cursor: pointer;
+    height: 500px;
+}
+
+.collage li img {
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    background: rgba(57, 57, 57, 0.502);
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 0.2s 0.1s ease-in-out;
+}
+
+.collage li:hover .overlay {
+    transform: scale(0.75);
+}

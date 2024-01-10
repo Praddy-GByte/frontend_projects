@@ -1,0 +1,81 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav .nav-link {
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  
+  /* Banner Section */
+  header {
+    padding: 3rem;
+    text-align: center;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 3rem;
+  }
+  
+  /* Portfolio Section */
+  #portfolio {
+    padding: 3rem;
+  }
+  
+  .card {
+    margin-bottom: 2rem;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 3rem;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 767px) {
+    .navbar-nav .nav-link {
+      margin-left: 0.5rem;
+    }
+  
+    header {
+      padding: 2rem;
+    }
+  
+    #about, #portfolio, #contact {
+      padding: 2rem;
+    }
+  
+    .card-img-top {
+      height: 150px;
+    }
+  }
+  

@@ -1,0 +1,34 @@
+#game-area {
+    width: 200px;
+    margin: 20px auto;
+}
+
+.game-button {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#btn-1 {
+    background-color: red;
+}
+
+#btn-2 {
+    background-color: green;
+}
+
+#btn-3 {
+    background-color: blue;
+}
+
+#btn-4 {
+    background-color: yellow;
+}
+
+#start-btn,
+#restart-btn {
+    display: block;
+    margin: 20px auto;
+}

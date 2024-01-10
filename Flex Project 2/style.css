@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    padding: 40px 5%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .image-gallery::after {
+    content: "";
+    flex-basis: 350px;
+  }
+  
+  
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .image-gallery li {
+    flex-basis: 350px; 
+    flex: 0 0 calc(33.33% - 20px); 
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .image-gallery li img {
+    object-fit: cover;
+    max-width: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-gallery li:hover img {
+    transform: scale(1.1);
+  }
+  
+  .image-gallery li:hover {
+    cursor: pointer;
+  }
+  
+  .image-gallery li::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-gallery li:hover::after {
+    opacity: 1;
+  }
+  
+  @media only screen and (min-width: 768px) {
+  .image-gallery {
+    flex-direction: row;
+  }
